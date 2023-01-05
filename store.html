@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>치즈 전문 식당</title>
+    <script src="https://kit.fontawesome.com/837ff3adc1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2af2d7ae1b.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/store.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>
+        <a href="./index.html">Cheese.in</a>
+      </h1>
+      <!-- 헤더  버거바-->
+      <div class="sub_menu">
+        <a href="#" onclick="return false"
+          ><i
+            class="fa-solid fa-bars"
+            style="color: orange"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          ></i
+        ></a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Cheese.in</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="burger-in"><a href="./login.html">로그인</a></div>
+            <div class="burger-in"><a href="./buypage.html">판매페이지</a></div>
+            <div class="burger-in"><a href="./history.html">치즈의 역사</a></div>
+            <div class="burger-in"><a href="./store.html">치즈맛집</a></div>
+            <div class="burger-in"><a href="./cartPage.html">장바구니</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="container">
+      <h2 class="place-title">Place</h2>
+      <div class="place">
+        <ul class="place_popular">
+          <li>
+            <img class="img_place" src="./images/flo.jpg" alt="치즈플로" />
+            <h3><b>치즈플로</b></h3>
+            <p><b>위치</b> 서울특별시 용산구 이태원로 49길 19</p>
+            <p><b>가격대</b> 3~4만원</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">얼린 염소치즈와 배</span>
+                  <span class="Restaurant_MenuPrice">16,000원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">치즈 플레이트(2종)</span>
+                  <span class="Restaurant_MenuPrice">21,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="slow">
+            <img class="img_place" src="./images/slowchesse.jpg" alt="슬로우치즈" />
+            <h3><b>슬로우치즈</b></h3>
+            <p><b>위치</b> 서울특별시 강남구 삼성로145길 13</p>
+            <p><b>가격대</b> 1~2만원</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">부라타</span>
+                  <span class="Restaurant_MenuPrice">23,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <img class="img_place" src="./images/smoker.jpg" alt="롱보트스모커" />
+            <h3><b>롱보트스모커</b></h3>
+            <p><b>위치</b> 서울특별시 서대문구 증가로 27 1F</p>
+            <p><b>가격대</b> 1만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">훈제크림치즈</span>
+                  <span class="Restaurant_MenuPrice">4,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <img class="img_place" src="./images/andaz.jpg" alt="치즈룸" />
+            <h3><b>치즈룸</b></h3>
+            <p><b>위치</b> 서울특별시 강남구 논현로 854,</p>
+            <p>B1 112호</p>
+            <p><b>가격대</b> 2~3만원</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu"> 리코타올리브깜빠뉴</span>
+                  <span class="Restaurant_MenuPrice">18,800원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">발사믹관자 (S)</span>
+                  <span class="Restaurant_MenuPrice">24,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <img class="img_place" src="./images/cheeseburger.jpg" alt="더리얼치즈버거" />
+            <h3><b>더리얼치즈버거</b></h3>
+            <p><b>위치</b> 서울특별시 마포구 와우산로29길</p>
+            <p><b>가격대</b> 1만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">더블치즈버거</span>
+                  <span class="Restaurant_MenuPrice">9,500원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">베이컨치즈버거</span>
+                  <span class="Restaurant_MenuPrice">7,900원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img class="img_place" src="./images/hamel.jpg" alt="제주하멜" />
+            <h3><b>제주하멜</b></h3>
+            <p><b>위치</b> 제주특별자치도 제주시 노형2길 51-3</p>
+            <p><b>가격대</b> 2만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu"> 치즈몽 (1박스)</span>
+                  <span class="Restaurant_MenuPrice">17,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img class="img_place" src="./images/sue.jpg" alt="동경치킨슈" />
+            <h3><b>동경키친슈</b></h3>
+            <p><b>위치</b> 경기도 성남시 분당구 내정로165번길 38 금호상가 B1 60호</p>
+            <p><b>가격대</b> 1만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">등심 돈까스</span>
+                  <span class="Restaurant_MenuPrice">8,000원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">안심 돈까스</span>
+                  <span class="Restaurant_MenuPrice">9,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img class="img_place" src="./images/bake.jpg" alt="베이크" />
+            <h3><b>베이크</b></h3>
+            <p><b>위치</b> 서울특별시 중구 남대문로 81,</p>
+            <p>롯데백화점 본점 B1</p>
+            <p><b>가격대</b> 1만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">치즈타르트 1피스</span>
+                  <span class="Restaurant_MenuPrice">3,200원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">팥 치즈타르트 1피스</span>
+                  <span class="Restaurant_MenuPrice">3,800원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <img class="img_place" src="./images/amateur.jpeg" alt="아마추어작업실" />
+            <h3><b>아마츄어작업실</b></h3>
+            <p><b>위치</b> 서울시 종로구 관철동 37-1</p>
+            <p><b>가격대</b> 1만원 미만</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">네모 치즈 케이크</span>
+                  <span class="Restaurant_MenuPrice">6,500원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <img class="img_place" src="./images/nonhyeongdon.jpg" alt="후문 논형동" />
+            <h3><b>후문</b></h3>
+            <p><b>위치</b> 서울특별시 강남구 강남대로120길 28</p>
+            <p><b>가격대</b> 7천원~3만원</p>
+            <div class="menu">
+              <p>
+                <b>대표메뉴 <i class="fa-solid fa-square-caret-down open"></i></b>
+              </p>
+              <div class="desc">
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">매콤짜파게티</span>
+                  <span class="Restaurant_MenuPrice">7,000원</span>
+                </div>
+                <div class="Restraurnat_MenuItem">
+                  <span class="Restaurant_Menu">치즈 김치전</span>
+                  <span class="Restaurant_MenuPrice">20,000원</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/store.js"></script>
+  </body>
+</html>
